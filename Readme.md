@@ -5,6 +5,10 @@ Html、JS、CSS
 ![finish1](./Day01Practice/img/finish.jpg)
 
 
+## Day2 : Simple React: "Thought Log" App
+Reactjs
+
+
 
 
 
