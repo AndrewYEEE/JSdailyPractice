@@ -1,1 +1,10 @@
-[### Day1 - Pixel Art Generator](./Day01Practice/Readme.md)
+## Day1 : Pixel Art Generator
+Html、JS、CSS
+
+[GO>>](./Day01Practice)
+![finish1](./Day01Practice/img/finish.jpg)
+
+
+
+
+
