@@ -45,7 +45,7 @@ button {
 }
 
 input[type="color"] {
-    -webkit-animation: none;
+    -webkit-animation: none; /* for chrome瀏覽器的動畫使用的參數，這裡不用，設成none，如果是for FireFox，則是"-moz-"前綴*/
     -moz-appearance: none;
     appearance: none;
     background-color: transparent;

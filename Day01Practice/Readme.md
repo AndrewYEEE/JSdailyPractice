@@ -1,8 +1,23 @@
-### Day1 - Pixel Art Generator
+# Day1 - Pixel Art Generator
+
+## How to use?
+
+Type your file path to search bar and enjoy!
+![finish](img/finish.jpg)
+
 ---
 html相關:
 * input: type="color"、"range"
 * label、input、snap組合
+
+JS相關:
+* input輸入取值採用"input"事件 (addListener("input",()=>{}))
+* document.querySelectorAll(".classname"); 可以取得所有該classname的元素
+* element.classList.add("gridCol"); //為element添加 classname
+* container.innerHTML=""; //清空container內容
+* container.appendChild(element); //將element加入container
+* window.onload=()=>{}方法用於在網頁加載完成後立刻執行的操作
+* element.style.attribute  為element添加style屬性 (css屬性) ex: col.style.backgroundColor = xxx ;  
 
 css相關:
 * padding屬性 : 內距
@@ -28,6 +43,7 @@ css相關:
     ```
 
     ![box-sizing](img/box-sizing1.jpg)
+    
     content-box效果 & border-box效果:
     ![box-sizing](img/box-sizing2.jpg)
 
@@ -72,6 +88,7 @@ css相關:
     * order //重新定義內元件的排列順序
     * flex  //flex-grow、flex-shink、flex-basis的縮寫
     ```
+
     以下只特別顯示justify-content特性差異:
     ![flex1](img/flex1.jpg)
 
@@ -82,5 +99,43 @@ css相關:
     ```
     ![gap1](img/gap1.jpg)
 
+* keyframes CSS3動畫圖像
+    基本參數:
+    ```
+    @keyframes : 建立規則
+    animation : 指定元素啟用規則實現動畫
 
+    注意: 不同瀏覽器需使用不同前綴， -webkit- for chrome/safari， -moz- for Firefox
+    ```
+
+    範例:
+    ```
+    div
+    {
+        width:100px;
+        height:100px;
+        background:red;
+        position:relative;
+        animation:myfirst 5s;
+        -webkit-animation:myfirst 5s; /* Safari and Chrome */
+    }
+
+    @keyframes myfirst
+    {
+        0%   {background:red; left:0px; top:0px;}
+        25%  {background:yellow; left:200px; top:0px;}
+        50%  {background:blue; left:200px; top:200px;}
+        75%  {background:green; left:0px; top:200px;}
+        100% {background:red; left:0px; top:0px;}
+    }
+
+    @-webkit-keyframes myfirst /* Safari and Chrome */
+    {
+        0%   {background:red; left:0px; top:0px;}
+        25%  {background:yellow; left:200px; top:0px;}
+        50%  {background:blue; left:200px; top:200px;}
+        75%  {background:green; left:0px; top:200px;}
+        100% {background:red; left:0px; top:0px;}
+    }
+    ```
 
