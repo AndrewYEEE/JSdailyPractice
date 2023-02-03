@@ -5,10 +5,11 @@ Html、JS、CSS
 ![finish1](./Day01Practice/img/finish.jpg)
 
 
-## Day2 : Simple React: "Thought Log" App
+## Day2 : A Simple React App - "Thought Log"
 Reactjs
 
-
+[GO>>](./Day02Practice/thought_log)
+![finish1](./Day02Practice/thought_log/img/finish.jpg)
 
 
 
