@@ -14,7 +14,7 @@ function App() {
 
   const getWeather = async (event)=>{
     event.preventDefault();
-    const Api_Key = '3ec954d675c95c9e42cca6a391fcd1dd';
+    const Api_Key = 'INSERT_API_KEY';
 
     //get Form data
     const city = event.target.elements.city.value;
