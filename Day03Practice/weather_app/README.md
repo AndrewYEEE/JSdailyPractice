@@ -41,3 +41,29 @@ npm start
 
 * 學會使用OpenWeatherMap OpenAPI:
     > https://openweathermap.org/current#geocoding
+
+
+* 學會使用Meterial UI for React:
+    ```
+    <Dialog
+        open={open}
+        onClose={handleClose}
+        aria-labelledby="alert-dialog-title"
+        aria-describedby="alert-dialog-description"
+    >
+        <DialogTitle id="alert-dialog-title" style={{color: 'black'}}>
+            {"Oops!! Something Wrong Happen!"}
+        </DialogTitle>
+        <DialogContent>
+            <DialogContentText id="alert-dialog-description">
+            Can not get response of OpenWeatherMap!
+            Please try again!
+            </DialogContentText>
+        </DialogContent>
+        <DialogActions>
+            <Button onClick={handleClose} autoFocus>
+            OK
+            </Button>
+        </DialogActions>
+    </Dialog>
+    ```
