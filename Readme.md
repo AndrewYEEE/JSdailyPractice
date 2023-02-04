@@ -11,5 +11,10 @@ Reactjs
 [GO>>](./Day02Practice/thought_log)
 ![finish1](./Day02Practice/thought_log/img/finish.jpg)
 
+## Day3 : A Simple React App - "Weather App"
+Reactjs、OpenWeatherMap OpenAPI
+
+[GO>>](./Day03Practice/weather_app)
+![finish1](./Day03Practice/weather_app/img/finish.jpg)
 
 
