@@ -45,6 +45,9 @@ npm start
 
 * 學會使用Meterial UI for React:
     ```
+    npm install @mui/material @emotion/react @emotion/styled
+    ```
+    ```
     <Dialog
         open={open}
         onClose={handleClose}
