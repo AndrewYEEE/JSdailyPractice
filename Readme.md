@@ -30,6 +30,8 @@ css相關:
 * gap : 網隔間細，用來控制網格間的距離，網格來源包含flex、grid、muti-column。
 * keyframes CSS3動畫圖像
 
+Reference: [https://youtu.be/DfDPJqD3FjI](https://youtu.be/DfDPJqD3FjI)
+
 ---
 ## Day2 : A Simple React App - "Thought Log"
 Reactjs
@@ -50,6 +52,10 @@ HTML特性:
 * Img Alt: 圖片失效的時候，Alt替代文字可以描述圖像的內容
 * Input placeholder: 該屬性可在文字框中顯示提示訊息，可用於以下input的類型：text, search, url, telephone, email 以及 password。
 
+
+
+Reference: [https://youtu.be/jU9qjzDs6No](https://youtu.be/jU9qjzDs6No)
+
 ---
 ## Day3 : A Simple React App - "Weather App"
 Reactjs、OpenWeatherMap OpenAPI
@@ -62,6 +68,8 @@ Reactjs、OpenWeatherMap OpenAPI
 * 使用Fetch執行非同步資料撈取:
 * 學會使用OpenWeatherMap OpenAPI:
 * 學會使用Meterial UI for React:
+
+Reference: [https://youtu.be/215nd3qWnQg](https://youtu.be/215nd3qWnQg)
 
 ---
 ## Day4 : Weather App (Advance UI)
@@ -90,6 +98,9 @@ HTML&&CSS特性:
 * cursor: 指定當滑鼠指標指向哪個物件時，顯示不同的游標。
 * button:hover : is to change the style of a button when you move the mouse over it.
 
+
+Reference: [https://youtu.be/iILFBGm_I9M](https://youtu.be/iILFBGm_I9M)
+
 ---
 ## Day5 : A Simple React App - "Random Person Generator"
 Reactjs
@@ -102,3 +113,31 @@ Reactjs
 2. React中嘗試直接使用state儲存一個JSX的List，JSX特性是如果是List會直接整個渲染。
 3. AbortController: 利用此controller控制fetch擷取API的時間
 4. 使用display:flex排版
+
+
+Reference: [https://youtu.be/DYByXUDn44Y](https://youtu.be/DYByXUDn44Y)
+
+
+---
+## Day6 : A Simple React App - "Random Holiday Destination"
+Reactjs
+
+當前發現Google Map API現在要綁信用卡，小的我沒錢沒信用卡，只好先擱著
+
+Reference: [https://youtu.be/m2FOI4L5kls](https://youtu.be/m2FOI4L5kls)
+
+---
+## Day7 : A Simple React App - "Drag and Drop 'trash can'"
+Reactjs
+
+[GO>>](./Day07Practice/drag_drop_trash)
+![finish1](./Day07Practice/drag_drop_trash/src/img/finish.jpg)
+
+重點觀念:
+* 對於HTML5 draggable 拖曳屬性的熟悉
+
+
+Reference: [https://www.youtube.com/watch?v=B4C23Dh6DMc&t=1s](https://www.youtube.com/watch?v=B4C23Dh6DMc&t=1s)
+
+
+
