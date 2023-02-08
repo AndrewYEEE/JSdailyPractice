@@ -131,6 +131,7 @@ Reference: [https://youtu.be/m2FOI4L5kls](https://youtu.be/m2FOI4L5kls)
 Reactjs
 
 [GO>>](./Day07Practice/drag_drop_trash)
+
 ![finish1](./Day07Practice/drag_drop_trash/src/img/finish.jpg)
 
 重點觀念:
@@ -141,10 +142,21 @@ Reference: [https://www.youtube.com/watch?v=B4C23Dh6DMc&t=1s](https://www.youtub
 
 
 ---
-## Day8 : A Simple React App - ""
+## Day8 : A Simple React App - "Post-it Note"
 Reactjs
+[GO>>](./Day08Practice/postitnote)
 
-Reference: [https://youtu.be/5EULHcqDfF4s](https://youtu.be/5EULHcqDfF4)
+![finish1](./Day08Practice/postitnote/img/finish.jpg)
+
+重點觀念:
+* React Form的操作熟悉
+* useCallback與useMemo的概念理解: 
+    1. 利用useMemo限制頁面只有在指定的state變更的時候才做畫面重新渲染
+    2. 利用useCallback限制自訂Func只有在state改變的時候才重新建構
+
+* memo概念: 如果父元件刷新，但此元件用到的props沒有變，則不渲染此元件。
+
+Reference: [https://youtu.be/5EULHcqDfF4s](https://youtu.be/5EULHcqDfF4s)
 
 
 ---
