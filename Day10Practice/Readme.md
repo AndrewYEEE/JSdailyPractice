@@ -8,6 +8,11 @@ Type your file path to search bar and enjoy!
 
 重點: 
 * OMDb API: 是一個電影資訊的API，要申請才能使用。
+* 使用join將資料加入html介面:
+    ```
+    ("Genre":"Action, Adventure, Comedy")
+    <div>${data.Genre.split(",").join("</div><div>")}</div>
+    ```
 
 
 CSS:
@@ -58,5 +63,48 @@ CSS:
     > 原本的行內層級，會被轉譯為網格層級，例如 display: inline-block, display: table-cell，會被轉譯為 display: block 的網格層級元件。
     而以下設定會失效：float, vertical-align, column-*
 
-
+    另外，這邊還提供了一個函數 repeat()，讓你可以不用重複寫一樣的設定，例如以現今流行的 12 欄位佈局來說，就這樣設定就好了:
+    ```
+    #container {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+    }
+    ```
+    而這個 repeat() 函數還有兩個特殊關鍵字:
+    * repeat(auto-fill, 100px) 利用 100px 的尺寸，自動填滿容器。
+    * repeat(auto-fit, 100px) 利用 100px 的尺寸，僅設定所擁有的欄或是列。
     
+    https://blog.hinablue.me/css-grid-layout/
+
+* gap : 用来设置网格行与列之间的间隙
+    ```
+    gap: 20px 10px;
+    gap: 1em 0.5em;
+    gap: 3vmin 2vmax;
+    gap: 0.5cm 2mm;
+    ```
+    ![gap](./img/gap.jpg)
+
+* cursor: 改變滑鼠指標
+    https://developer.mozilla.org/zh-TW/docs/Web/CSS/cursor 
+
+* text-align : 用於文字的水平對齊，基本上僅需指定一個值，其作用的對象是物件內的文字，例如我對p設定text-align，那麼p的文字內容就會在該區塊內對齊你所設定的方向。
+    ```
+    left (對齊左側)
+    center (置中)
+    right (對齊右側)
+    justify (左右對齊)
+    inherit
+    initial
+    ```
+
+* line-height : 作用是設定文字的行高
+* @media 查询: 使用 @media 查询，你可以针对不同的媒体类型定义不同的样式。
+```
+如果文档宽度小于 300 像素则修改背景颜色(background-color):
+@media screen and (max-width: 300px) {
+    body {
+        background-color:lightblue;
+    }
+}
+```

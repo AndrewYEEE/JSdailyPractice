@@ -202,6 +202,28 @@ Reference: [https://youtu.be/DRJasSDpRHg](https://youtu.be/DRJasSDpRHg)
 ## Day10 : Movie Guide App With Javascript
 Html、JS、CSS
 
+[GO>>](./Day10Practice)
+![finish1](./Day10Practice/img/finish.jpg)
+
+重點觀念:
+
+* OMDb API: 是一個電影資訊的API，要申請才能使用。
+* 使用join將資料加入html介面:
+    ```
+    ("Genre":"Action, Adventure, Comedy")
+    <div>${data.Genre.split(",").join("</div><div>")}</div>
+    ```
+
+
+CSS:
+* linear-gradient: 是一個CSS功能，能利用兩種或多種顏色繪製版面。
+* transform: 用來翻轉區塊 (只適用於區塊(block)元件，不適用於inline元件)
+* display: Grid
+* gap : 用来设置网格行与列之间的间隙
+* cursor: 改變滑鼠指標
+* text-align : 用於文字的水平對齊，基本上僅需指定一個值，其作用的對象是物件內的文字，例如我對p設定text-align，那麼p的文字內容就會在該區塊內對齊你所設定的方向。
+* line-height : 作用是設定文字的行高
+* @media 查询: 使用 @media 查询，你可以针对不同的媒体类型定义不同的样式。
 
 Reference: [https://youtu.be/J6uam9jEmDU](https://youtu.be/J6uam9jEmDU)
 
